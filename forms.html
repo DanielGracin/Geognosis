@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg" href="./IMG/FAVICON_ICON.svg">
+    <link rel="stylesheet" href="/CSS/forms.css">
+    <title>Registrační formulář</title>
+</head>
+<body>
+    <div class="wrapper">
+        <form action="URL_PRO_ODESLÁNÍ" method="POST">
+            <h2>Registrační formulář</h2>
+            <div class="input-field">
+                <input type="email" required name="email" id="email">
+                <label for="email">Zadejte Váš email</label>
+            </div>
+            <div class="input-field">
+                <input type="password" required name="password" id="password">
+                <label for="password">Zadejte Vaše heslo</label>
+            </div>
+            <div class="forget">
+                <label for="remember">
+                    <input type="checkbox" id="remember">
+                    <p>Zapamatuj si mě</p>
+                </label>
+                <a href="#">Zapomněli jste heslo?</a>
+            </div>
+            <button type="submit">Přihlásit se</button>
+            <div class="register">
+                <p>Nemáte účet?
+                    <a href="#">Zaregistrujte se</a>
+                </p>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
