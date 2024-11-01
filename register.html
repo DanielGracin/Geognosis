@@ -4,13 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/svg" href="./IMG/FAVICON_ICON.svg">
-    <link rel="stylesheet" href="./CSS/forms.css">
+    <link rel="stylesheet" href="/CSS/login-register.css">
     <title>Registrační formulář</title>
 </head>
 <body>
     <div class="wrapper">
-        <form action="URL_PRO_ODESLÁNÍ" method="POST">
-            <h2>Registrační formulář</h2>
+        <form action="register.html" method="POST">
+            <h2>Registrace</h2>
+            <div class="input-field">
+                <input type="text" required name="name" id="name">
+                <label for="name">Zadejte Vaše Jméno</label>
+            </div>
+            <div class="input-field">
+                <input type="text" required name="lastname" id="lastname">
+                <label for="lastname">Zadejte Vaše Příjmení</label>
+            </div>
             <div class="input-field">
                 <input type="email" required name="email" id="email">
                 <label for="email">Zadejte Váš email</label>
@@ -21,15 +29,14 @@
             </div>
             <div class="forget">
                 <label for="remember">
-                    <input type="checkbox" id="remember">
-                    <p>Zapamatuj si mě</p>
+                    <input type="checkbox" required id="remember">
+                    <p>Souhlasím s licenčními podmínkami</p>
                 </label>
-                <a href="#">Zapomněli jste heslo?</a>
             </div>
-            <button type="submit">Přihlásit se</button>
+            <button type="submit">Registrovat se</button>
             <div class="register">
-                <p>Nemáte účet?
-                    <a href="#">Zaregistrujte se</a>
+                <p>Už mám účet?
+                    <a href="login.html">Přihlásit se</a>
                 </p>
             </div>
         </form>
