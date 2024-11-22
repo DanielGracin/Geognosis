@@ -3,11 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/svg" href="./IMG/FAVICON_ICON.svg">
+    <link rel="icon" type="image/svg" href="./IMG/Geognosis_Favicon.svg">
     <link rel="stylesheet" href="/CSS/login-register.css">
     <title>Registrační formulář</title>
 </head>
 <body>
+
+    <header class="header"> 
+        <a href="/index.html">
+         <img src="/IMG/Geognosis logo.svg" class="logo">
+        </a>
+        <nav class="navbar">
+            <a href="index.html">Úvod</a>
+            <a href="project.html">O projektu</a>
+            <a href="history.html">Historie</a>
+            <a href="contact.html">Kontakt</a>
+            <a href="login.html">Přihlásit se</a>
+        </nav>
+    </header>
+
+    <main>
     <div class="wrapper">
         <form action="register.html" method="POST">
             <h2>Registrace</h2>
@@ -27,12 +42,6 @@
                 <input type="password" required name="password" id="password">
                 <label for="password">Zadejte Vaše heslo</label>
             </div>
-            <div class="forget">
-                <label for="remember">
-                    <input type="checkbox" required id="remember">
-                    <p>Souhlasím s licenčními podmínkami</p>
-                </label>
-            </div>
             <button type="submit">Registrovat se</button>
             <div class="register">
                 <p>Už mám účet?
@@ -41,5 +50,10 @@
             </div>
         </form>
     </div>
+    </main>
+
+    <footer class="footer">
+        <p class="footer-text">© 2024/2025 Daniel Gracin | Maturitní projekt</p>
+    </footer>
 </body>
 </html>
