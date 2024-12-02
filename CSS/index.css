@@ -28,7 +28,6 @@ body {
     justify-content: space-between;
     align-items: center;
     border: 2px solid black;
-    border-radius: 25px;
 }
 
 .logo {
@@ -55,7 +54,6 @@ body {
     height: 5rem;
     text-align: center;
     border: 2px solid black;
-    border-radius: 25px;
     bottom: 0;
     backdrop-filter: blur(8px);
 }
@@ -65,4 +63,52 @@ body {
     font-size: 25px;
     margin: 1.5rem;
     text-decoration: none;
+}
+
+/* Desing Showcaseu */
+
+.showcase {
+    background: #333 url(../IMG/FORMS_BACKGROUND.png) no-repeat center center/cover;
+    height: 100vh;
+    color: black;
+}
+
+.showcase .showcase-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    padding: 0 2rem;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.l-heading {
+    font-size: 4rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
+}
+
+.lead {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    display: inline-block;
+    color: black;
+    background: white;
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: white;
+}
+
+.btn-dark {
+    background: #333;
+    color: white;
 }

@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/svg" href="./IMG/Geognosis_Favicon.svg">
-    <link rel="stylesheet" href="/CSS/index.css">
-    <title>Geognósis</title>
+    <link rel="stylesheet" href="/CSS/login-register.css">
+    <title>Geognósis - Kontakt</title>
 </head>
 <body>
     <header class="header"> 
@@ -22,9 +22,20 @@
     </header>
 
     <main>
-    <div>
-
-    </div>
+        <div class="wrapper">
+            <form action="login.html" method="POST">
+                <h2>Kontakt</h2>
+                <div class="input-field">
+                    <input type="email" required name="email" id="email">
+                    <label for="email">Zadejte Váš email</label>
+                </div>
+                <div class="input-field">
+                    <input type="text" required name="message" id="message">
+                    <label for="message">Napište zprávu</label>
+                </div>
+                <button type="submit">Odeslat</button>
+            </form>
+        </div>
     </main>
 
     <footer class="footer">
