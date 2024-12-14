@@ -22,7 +22,7 @@ body::before {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: url(/IMG/FORMS_BACKGROUND.png);
+    background: url(/IMG/Main.png);
     background-position: center;
     background-size: cover;
     z-index: -1;
@@ -31,12 +31,12 @@ body::before {
 /* Desing Formuláře */
 
 .wrapper {
+    color: white;
     width: 600px;
     border-radius: 8px;
     padding: 30px;
     text-align: center;
-    border: 1px solid black;
-    backdrop-filter: blur(8px);
+    border: 2px rgba(255, 222, 89, 255) solid;
 }
 
 form {
@@ -47,18 +47,19 @@ form {
 h2 {
     font-size: 3rem;
     margin-bottom: 20px;
-    color: black;
+    color: rgba(255, 222, 89, 255);
+    text-decoration: underline;
 }
 
 .input-field {
     position: relative;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid white;
     margin: 15px 0;
 }
 
 .input-field label {
     position: absolute;
-    color: black;
+    color: white;
     top: 50%;
     left: 0;
     transform: translateY(-50%);
@@ -70,7 +71,7 @@ h2 {
 .input-field input {
     width: 100%;
     height: 45px;
-    color: black;
+    color: white;
     background: transparent;
     border: none;
     outline: none;
@@ -89,7 +90,7 @@ h2 {
     align-items: center;
     justify-content: space-between;
     margin: 25px 0 35px 0;
-    color: black;
+    color: white;
     font-size: 20px;
 }
 
@@ -104,17 +105,17 @@ h2 {
 
 
 #remember {
-    accent-color: black;
+    accent-color: white;
 }
 
 .wrapper a {
-    color: black;
+    color: white;
     text-decoration: underline;
 }
 
 button {
-    background: black;
-    color: white;
+    background: rgba(255, 222, 89, 255);
+    color: black;
     font-weight: 600;
     border: none;
     padding: 12px 20px;
@@ -128,7 +129,7 @@ button {
 .register {
     text-align: center;
     margin-top: 30px;
-    color: black;
+    color: white;
     font-size: 20px;
 }
 
@@ -141,27 +142,26 @@ button {
     width: 100%;
     padding-right: 100px;
     padding-left: 100px;
-    backdrop-filter: blur(8px);
+    background: transparent;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 2px solid black;
 }
 
 .logo {
-    width: 150px;
+    width: 400px;
     height: 150px;
 }
 
 .navbar a {
-    color: black;
-    font-size: 28px;
+    color: rgba(255, 222, 89, 255);
+    font-size: 30px;
     text-decoration: none;
-    margin-left: 50px;
+    margin-left: 60px;
 }
 
 .navbar a:hover {
-    color: white;   
+    color: white; 
 }
 
 /* Desing footeru */
@@ -171,13 +171,11 @@ button {
     width: 100%;
     height: 5rem;
     text-align: center;
-    border: 2px solid black;
     bottom: 0;
-    backdrop-filter: blur(8px);
 }
 
 .footer-text {
-    color: black;
+    color: rgba(255, 222, 89, 255);
     font-size: 25px;
     margin: 1.5rem;
     text-decoration: none;

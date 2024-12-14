@@ -8,10 +8,9 @@
 }
 
 body {
-    min-height: 100vh;
-    background: url(/IMG/FORMS_BACKGROUND.png) no-repeat;
-    background-size: cover;
-    background-position: center;
+    width: 100%;
+    background-color: black;
+    color: white;
 }
 
 /* Desing Navbar Navigátoru */
@@ -23,92 +22,154 @@ body {
     width: 100%;
     padding-right: 100px;
     padding-left: 100px;
-    backdrop-filter: blur(8px);
+    background: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 2px solid black;
+    box-shadow: black 0px 10px 15px;
 }
 
 .logo {
-    width: 150px;
+    width: 400px;
     height: 150px;
 }
 
 .navbar a {
-    color: black;
-    font-size: 28px;
+    color: rgba(255, 222, 89, 255);
+    font-size: 30px;
     text-decoration: none;
-    margin-left: 50px;
+    margin-left: 60px;
 }
 
 .navbar a:hover {
     color: white; 
 }
 
+/* Desing index.php showcase */
+
+.showcase {
+    background: black url(../IMG/Main.png) no-repeat center center/cover;
+    height: 100vh;
+    color: white;
+    padding-left: 15rem;
+}
+
+.showcase .content {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    align-items: left;
+    height: 100%;
+    padding: 0 2rem;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    font-size: 4rem;
+    margin-bottom: 0.5rem;
+    line-height: 1.1;
+    text-align: left;
+    text-decoration: underline;
+    color: rgba(255, 222, 89, 255);
+}
+
+.subtitle {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.index-button {
+    background: rgba(255, 222, 89, 255);
+    color: black;
+    font-weight: 600;
+    max-width: 14rem;
+    border: none;
+    padding: 15px 20px;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 25px;
+    text-decoration: none;
+    border: 2px solid transparent;
+    transition: 0.3s ease;
+}
+
+/* Desing Sectionu */
+
+.py-1 {
+    padding: 1.5rem 0;
+}
+
+.container {
+    max-width: 1920px;
+    margin: auto;
+    padding: 0 2rem;
+    overflow: hidden;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.m-heading {
+    font-size: 3rem;
+    margin-bottom: 0.75rem;
+    color: rgba(255, 222, 89, 255);
+    text-decoration: underline;
+}
+
+h2 {
+    margin: 3rem;
+    padding: 3rem;
+}
+
+
+#naucitese .items {
+    display: flex;
+    padding: 1rem;
+    justify-content: space-around;
+}
+
+#naucitese .item {
+    position: relative;
+    text-align: center;
+    padding: 1rem;
+    width: 200px;
+    top: 0;
+}
+
+#naucitese .items .item i {
+    background-color: rgba(255, 222, 89, 255);
+    border-radius: 50%;
+    margin: 2rem 0;
+    width: 4rem;
+    height: 4rem;
+    line-height: 4rem;
+    color: black;
+}
+
+#naucitese .item:hover {
+    box-shadow: rgba(255, 222, 89, 255) 0px 10px 15px;
+    top: -10px;
+    transition: all 0.5s ease;
+}
+
 /* Desing footeru */
 
 .footer {
-    position: fixed;
+    position: relative;
     width: 100%;
     height: 5rem;
     text-align: center;
-    border: 2px solid black;
     bottom: 0;
-    backdrop-filter: blur(8px);
 }
 
 .footer-text {
-    color: black;
+    color: rgba(255, 222, 89, 255);
     font-size: 25px;
     margin: 1.5rem;
     text-decoration: none;
 }
 
-/* Desing Showcaseu */
-
-.showcase {
-    background: #333 url(../IMG/FORMS_BACKGROUND.png) no-repeat center center/cover;
-    height: 100vh;
-    color: black;
-}
-
-.showcase .showcase-content {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    height: 80%;
-    padding: 0 2rem;
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
-.l-heading {
-    font-size: 4rem;
-    margin-bottom: 0.75rem;
-    line-height: 1.1;
-}
-
-.lead {
-    font-size: 1.3rem;
-    margin-bottom: 2rem;
-}
-
-.btn {
-    display: inline-block;
-    color: black;
-    background: white;
-    padding: 0.5rem 2rem;
-    border: none;
-    border-radius: 5px;
-}
-
-.btn:hover {
-    background: white;
-}
-
-.btn-dark {
-    background: #333;
-    color: white;
-}
