@@ -51,7 +51,7 @@ body {
     background: black url(../IMG/Main.png) no-repeat center center/cover;
     height: 100vh;
     color: white;
-    padding-left: 15rem;
+    padding-left: 13rem;
 }
 
 .showcase .content {
@@ -59,8 +59,9 @@ body {
     flex-direction: column;
     text-align: left;
     justify-content: center;
-    align-items: left;
+    align-items: baseline;
     height: 100%;
+    width: 1000px;
     padding: 0 2rem;
     background-color: rgba(0, 0, 0, 0.1);
 }
@@ -68,8 +69,8 @@ body {
 .title {
     font-size: 4rem;
     margin-bottom: 0.5rem;
-    line-height: 1.1;
-    text-align: left;
+    line-height: 0;
+    text-align: center;
     text-decoration: underline;
     color: rgba(255, 222, 89, 255);
 }
@@ -90,13 +91,59 @@ body {
     padding-right: 4rem;
     cursor: pointer;
     border-radius: 3px;
+    align-items: baseline;
     font-size: 25px;
     text-decoration: none;
-    border: 2px solid transparent;
     transition: 0.3s ease;
 }
 
+/* Desing project.php showcase */
+
+.showcase-project {
+    background: black url(../IMG/Main.png) no-repeat center center/cover;
+    height: 100vh;
+    color: white;
+    padding-left: 13rem;
+}
+
+.showcase-project .content {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    align-items: baseline;
+    height: 100%;
+    width: 1000px;
+    padding: 0 2rem;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.subtitle-project {
+    font-size: 1.85rem;
+    margin-bottom: 2rem;
+}
 /* Desing Sectionu */
+
+.text {
+    font-size: 20px;
+    padding-bottom: 2rem;
+    padding-top: 0.5rem;
+}
+
+.sec-btn {
+    background: rgba(255, 222, 89, 255);
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    max-width: 1rem;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 2rem;
+}
 
 .py-1 {
     padding: 1.5rem 0;
@@ -157,6 +204,11 @@ h2 {
 }
 
 /* Desing footeru */
+.space {
+    margin: 1rem;
+    border: 2px black solid;
+    color: black;
+}
 
 .footer {
     position: relative;
@@ -173,3 +225,71 @@ h2 {
     text-decoration: none;
 }
 
+
+/* Desing history.php */
+
+.tablink {
+    background-color: black;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 25px;
+    width: 25%; 
+  }
+
+  .main-text {
+    font-size: 10rem;
+    text-align: center;
+    align-items: center;
+    position: static;
+    color: black;
+  }
+  
+  .tablink:hover {
+    background-color: rgba(255, 222, 89, 255);
+    color: black;
+  }
+  
+  .tabcontent {
+    color: black;
+    display: none;
+    padding: 24rem;
+    text-align: center;
+  }
+
+  .history-button {
+    background: black;
+    color: white;
+    font-weight: 600;
+    max-width: 14rem;
+    border: none;
+    padding: 15px 20px;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    cursor: pointer;
+    border-radius: 3px;
+    align-items: baseline;
+    font-size: 25px;
+    text-decoration: none;
+    transition: 0.3s ease;
+  }
+  
+  #EGYPT {
+    background: url(../IMG/EGYPT.jpg) no-repeat center center/cover;}
+  #BABYLON {
+    background: url(../IMG/BABYLON.jpg) no-repeat center center/cover;}
+  #ASYRIE {
+    background: url(../IMG/ASYRIE.jpg) no-repeat center center/cover;}
+  #PERSIE {
+    background-color:orange;}
+  #GREECE {
+    background-color:orange;}
+  #MAKEDONIE {
+    background-color:orange;}
+  #ROME {
+    background: url(../IMG/ROME.jpg) no-repeat center center/cover;}
+  #CHINA {
+    background-color:orange;}
