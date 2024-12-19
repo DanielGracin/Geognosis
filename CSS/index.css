@@ -30,15 +30,15 @@ body {
 }
 
 .logo {
-    width: 400px;
-    height: 150px;
+    width: 250px;
+    height: 80px;
 }
 
 .navbar a {
     color: rgba(255, 222, 89, 255);
-    font-size: 30px;
+    font-size: 1.4rem;
     text-decoration: none;
-    margin-left: 60px;
+    margin-left: 2rem;
 }
 
 .navbar a:hover {
@@ -51,7 +51,7 @@ body {
     background: black url(../IMG/Main.png) no-repeat center center/cover;
     height: 100vh;
     color: white;
-    padding-left: 13rem;
+    padding-left: 10rem;
 }
 
 .showcase .content {
@@ -67,8 +67,8 @@ body {
 }
 
 .title {
-    font-size: 4rem;
-    margin-bottom: 0.5rem;
+    font-size: 3rem;
+    margin-bottom: 0.1rem;
     line-height: 0;
     text-align: center;
     text-decoration: underline;
@@ -76,7 +76,7 @@ body {
 }
 
 .subtitle {
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-bottom: 2rem;
 }
 
@@ -92,7 +92,7 @@ body {
     cursor: pointer;
     border-radius: 3px;
     align-items: baseline;
-    font-size: 25px;
+    font-size: 20px;
     text-decoration: none;
     transition: 0.3s ease;
 }
@@ -113,19 +113,19 @@ body {
     justify-content: center;
     align-items: baseline;
     height: 100%;
-    width: 1000px;
+    width: 50rem;
     padding: 0 2rem;
     background-color: rgba(0, 0, 0, 0.1);
 }
 
 .subtitle-project {
-    font-size: 1.85rem;
+    font-size: 1.5rem;
     margin-bottom: 2rem;
 }
 /* Desing Sectionu */
 
 .text {
-    font-size: 20px;
+    font-size: 15px;
     padding-bottom: 2rem;
     padding-top: 0.5rem;
 }
@@ -142,7 +142,7 @@ body {
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .py-1 {
@@ -161,7 +161,7 @@ h1 {
 }
 
 .m-heading {
-    font-size: 3rem;
+    font-size: 2rem;
     margin-bottom: 0.75rem;
     color: rgba(255, 222, 89, 255);
     text-decoration: underline;
@@ -211,16 +211,16 @@ h2 {
 }
 
 .footer {
-    position: relative;
+    position: static;
     width: 100%;
-    height: 5rem;
+    height: 2rem;
     text-align: center;
     bottom: 0;
 }
 
 .footer-text {
     color: rgba(255, 222, 89, 255);
-    font-size: 25px;
+    font-size: 15px;
     margin: 1.5rem;
     text-decoration: none;
 }
@@ -236,16 +236,18 @@ h2 {
     outline: none;
     cursor: pointer;
     padding: 14px 16px;
-    font-size: 25px;
-    width: 25%; 
+    font-size: 16px;
+    width: 12.5%; 
   }
 
   .main-text {
-    font-size: 10rem;
+    font-size: 10.2rem;
+    padding-bottom: 1rem;
     text-align: center;
     align-items: center;
     position: static;
     color: black;
+    backdrop-filter: blur(1px);
   }
   
   .tablink:hover {
@@ -256,7 +258,7 @@ h2 {
   .tabcontent {
     color: black;
     display: none;
-    padding: 24rem;
+    padding: 13.5rem;
     text-align: center;
   }
 
@@ -267,12 +269,12 @@ h2 {
     max-width: 14rem;
     border: none;
     padding: 15px 20px;
-    padding-left: 4rem;
-    padding-right: 4rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
     cursor: pointer;
     border-radius: 3px;
     align-items: baseline;
-    font-size: 25px;
+    font-size: 15px;
     text-decoration: none;
     transition: 0.3s ease;
   }
@@ -284,12 +286,38 @@ h2 {
   #ASYRIE {
     background: url(../IMG/ASYRIE.jpg) no-repeat center center/cover;}
   #PERSIE {
-    background-color:orange;}
+    background: url(../IMG/PERSIE.jpg) no-repeat center center/cover;}
   #GREECE {
-    background-color:orange;}
+    background: url(../IMG/GREECE.jpg) no-repeat center center/cover;}
   #MAKEDONIE {
-    background-color:orange;}
+    background: url(../IMG/MAKEDONIE.jpg) no-repeat center center/cover;}
   #ROME {
     background: url(../IMG/ROME.jpg) no-repeat center center/cover;}
   #CHINA {
     background-color:orange;}
+
+    /* Desing for notes */
+
+    .notes {
+        max-width: 1600px;
+        margin: 10rem;
+        padding: 1.5rem;
+    }
+
+    .video {
+        max-width: 1600px;
+        margin: 5rem;
+        padding: 2rem;
+        align-items: center;
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+    }
+
+    .head-text {
+        font-size: 1.6rem;
+        padding-bottom: 1rem;
+    }
+
+    .side-text {
+        padding-left: 3rem;
+    }
